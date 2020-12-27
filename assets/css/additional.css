@@ -1,0 +1,66 @@
+ul {
+  list-style: none;
+}
+
+#intro > div.inner {
+  position: relative;
+}
+
+#self-photo{
+  position: absolute;
+  width: 40%;
+  height: auto;
+  border-radius: 15px;
+  right: 40px;
+  top: 15%;
+}
+
+@media screen and (max-width: 736px){
+  #self-photo{
+    position: relative;
+    width: 200px;
+    height: auto;
+    right: 0;
+    top: 0;
+  }
+
+  div.inner{
+    text-align: center;
+  }
+}
+
+#project-title {
+  margin-left: 2em;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.spotlights > #project-title.active {
+  animation: slide 1.5s forwards;
+}
+
+@keyframes slide {
+  0% {transform: translateX(-50px);
+      opacity: 0;}
+  100% {transform: translateX(0px);
+        opacity: 1;}
+}
+
+#project-title.inactive{
+  visibility: hidden;
+}
+	
+body.is-preload .spotlights > #project-title{
+  opacity: 0;
+}
+
+.edu-logo{
+  height: 60px;
+  width: 60px;
+}
+
+.skill-logo{
+  height: 50px;
+  width: auto;
+}
+
