@@ -2,17 +2,14 @@ ul {
   list-style: none;
 }
 
-#intro > div.inner {
-  position: relative;
-}
+
 
 #self-photo{
-  position: absolute;
-  width: 40%;
+  float: right;
+  width: 30%;
   height: auto;
   border-radius: 15px;
-  right: 40px;
-  top: 15%;
+  margin-right: 50px;
 }
 
 @media screen and (max-width: 736px){
@@ -27,7 +24,7 @@ ul {
   div.inner{
     text-align: center;
   }
-}
+} 
 
 #project-title {
   margin-left: 2em;
