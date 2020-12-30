@@ -74,7 +74,7 @@ body.is-preload .spotlights > #project-title{
   font-size: 18px;
 }
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 980px) and (min-width: 500px) {
     .features section .icon {
       left: 20%; 
     }
@@ -82,5 +82,9 @@ body.is-preload .spotlights > #project-title{
     .features {
       width: 70%;
       margin: 0 auto;
+    }
+
+    .features + ul.actions {
+      margin-left: 12.5%;
     }
   }
