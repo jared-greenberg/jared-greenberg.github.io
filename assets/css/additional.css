@@ -8,7 +8,7 @@ ul {
   float: right;
   width: 30%;
   height: auto;
-  border-radius: 15px;
+  border: 1px solid #ebebeb;
   margin-right: 50px;
 }
 
@@ -61,3 +61,26 @@ body.is-preload .spotlights > #project-title{
   width: auto;
 }
 
+.wrapper.style4 {
+  background: rgba(37, 88, 105, 0.918);
+}
+
+.wrapper.style5 {
+  background-image: url(./images/aurora.jpg);
+  background-size: cover;
+}
+
+.features section > p {
+  font-size: 18px;
+}
+
+	@media screen and (max-width: 980px) {
+    .features section .icon {
+      left: 20%; 
+    }
+
+    .features {
+      width: 70%;
+      margin: 0 auto;
+    }
+  }
