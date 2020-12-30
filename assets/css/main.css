@@ -3246,7 +3246,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #7B7B7B;
+			background-image: url('./images/aurora.jpg');
+			/* background-color: #7B7B7B; */
 		}
 
 		.wrapper.style1-alt {
@@ -3883,7 +3884,7 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		/* background-image: url("images/intro.svg"); */
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
