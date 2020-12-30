@@ -2,6 +2,22 @@ ul {
   list-style: none;
 }
 
+ #intro h1, #intro p {
+    color: white;
+    text-align: center;
+    margin: 0;
+  }
+
+  #intro .title {
+    width: 60%;
+    margin-top: 10%;
+    background:rgba(0, 0, 0, 0.6);
+  }
+
+
+  #three {
+    color: white;
+  }
 
 
 #self-photo{
@@ -9,16 +25,23 @@ ul {
   width: 30%;
   height: auto;
   border: 1px solid #ebebeb;
-  margin-right: 50px;
+  margin-right: 5%;
 }
 
-@media screen and (max-width: 736px){
+
+
+@media screen and (max-width: 840px){
   #self-photo{
-    position: relative;
     width: 200px;
-    height: auto;
-    right: 0;
-    top: 0;
+    float: none;
+    margin-right: 0;
+    margin-top: 15px;
+
+  }
+
+  #intro .title {
+    width: 100%;
+    padding: 0;
   }
 
   div.inner{
@@ -88,3 +111,6 @@ body.is-preload .spotlights > #project-title{
       margin-left: 12.5%;
     }
   }
+
+
+ 
