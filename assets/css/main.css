@@ -3019,10 +3019,12 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			width: 26em;
+			height: 26em;
 			flex-grow: 0;
 			flex-shrink: 0;
 		}
 
+	
 			.spotlights > section > .image img {
 				border-radius: 0;
 				display: block;
