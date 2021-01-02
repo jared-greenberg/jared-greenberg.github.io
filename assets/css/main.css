@@ -3018,7 +3018,7 @@ input, select, textarea {
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 24em;
+			width: 26em;
 			flex-grow: 0;
 			flex-shrink: 0;
 		}
@@ -3111,8 +3111,9 @@ input, select, textarea {
 			}
 
 				.spotlights > section > .image {
-					width: 100%;
-					height: 50vh;
+					width: 26em;
+					height: 26em;
+					margin: 0 auto;
 				}
 
 				.spotlights > section > .content {
