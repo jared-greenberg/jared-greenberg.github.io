@@ -12,12 +12,19 @@ ul {
     width: 60%;
     margin-top: 10%;
     background:rgba(0, 0, 0, 0.6);
+    border: 1px solid white;
   }
 
 
   #three {
     color: white;
   }
+
+#three input, #three textarea {
+  background:rgba(0, 0, 0, 0.6);
+  border: 1px solid white;
+}
+
 
 
 #self-photo{
@@ -41,6 +48,7 @@ ul {
   #intro .title {
     width: 100%;
     padding: 0;
+    margin: 0;
   }
 
   div.inner{

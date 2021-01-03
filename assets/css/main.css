@@ -2816,6 +2816,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		margin: 0;
 	}
 
 		ul.icons li {
@@ -3022,9 +3023,10 @@ input, select, textarea {
 			height: 26em;
 			flex-grow: 0;
 			flex-shrink: 0;
+			background-size: cover;
 		}
 
-	
+			
 			.spotlights > section > .image img {
 				border-radius: 0;
 				display: block;
