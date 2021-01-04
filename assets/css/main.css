@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: rgb(97, 59, 128);;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3119,6 +3119,7 @@ input, select, textarea {
 					height: 26em;
 					margin: 0 auto;
 				}
+				
 
 				.spotlights > section > .content {
 					width: 100%;
@@ -3262,7 +3263,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: rgb(97, 59, 128);
 		}
 
 		.wrapper.style2 {

@@ -107,8 +107,8 @@ body.is-preload .spotlights > #project-title{
 @media screen and (max-width: 980px) {
 
 	.spotlights > section > .content h2 {
-          width: 100%;
-          text-align: center;
+      width: 100%;
+      text-align: center;
   }
 }
 
