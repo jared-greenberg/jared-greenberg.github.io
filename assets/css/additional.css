@@ -11,7 +11,7 @@ ul {
   #intro .title {
     width: 60%;
     margin-top: 10%;
-    background:rgba(0, 0, 0, 0.6);
+    background:rgba(0, 0, 0, 0.4);
     border: 1px solid white;
   }
 
@@ -21,7 +21,7 @@ ul {
   }
 
 #three input, #three textarea {
-  background:rgba(0, 0, 0, 0.6);
+  background:rgba(0, 0, 0, 0.4);
   border: 1px solid white;
 }
 
