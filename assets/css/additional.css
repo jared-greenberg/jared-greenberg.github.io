@@ -20,9 +20,13 @@ ul {
     color: white;
   }
 
-#three input, #three textarea {
-  background:rgba(0, 0, 0, 0.4);
-  border: 1px solid white;
+#three input, #three .button, #three textarea {
+  background:rgba(0, 0, 0, 0.4) !important;
+  border: 1px solid white !important;
+}
+
+#three .button:hover{
+  opacity: 0.9;
 }
 
 
@@ -110,6 +114,11 @@ body.is-preload .spotlights > #project-title{
       width: 100%;
       text-align: center;
   }
+
+  ul.actions {
+    justify-content: center;
+    margin-left: -2em;
+  }
 }
 
 @media screen and (max-width: 980px) and (min-width: 500px) {
@@ -132,5 +141,14 @@ body.is-preload .spotlights > #project-title{
   #sidebar nav ul li.big-intro {
     display: none;
   }
+
+  #sidebar nav ul li:nth-child(2){
+    margin: 0;
+  }
 }
+
+
+
+
+
  
